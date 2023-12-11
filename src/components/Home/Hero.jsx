@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 
 import { RiDownload2Fill } from "react-icons/ri";
+import mypic from "../../../src/assets/my-pic2.png"
 
 const Hero = () => {
     return (
@@ -10,7 +11,7 @@ const Hero = () => {
                     <h1 className="font-bold text-5xl text-[#018DB0]">Hi👋 I’m <br /> Md Zalish Mahmud
                         <span className="text-[#D1884F]"> MERN Stack</span> Developer </h1>
 
-                    <p className="text-lg mt-4 w-[90%] text-gray-500">I am a junior MERN stack developer, proficient in MongoDB, Express.js, React.js, and Node.js. My expertise lies in designing databases, developing server-side logic, and building responsive user interfaces for web applications.</p>
+                    <p className="text-lg mt-4 w-[90%] text-gray-500 font-medium">I am a junior MERN stack developer, proficient in MongoDB, Express.js, React.js, and Node.js.</p>
 
                     <div className="mt-3">
                         <div class="flex flex-wrap justify-start gap-2">
@@ -46,7 +47,7 @@ const Hero = () => {
 
             </div>
             <div className="lg:w-1/3">
-                <img className="" src="/src/assets/my-pic2.png" alt="" />
+                <img className="h-[500px] w-[500px] rounded-full" src={mypic} alt="" />
             </div>
         </div>
     );
