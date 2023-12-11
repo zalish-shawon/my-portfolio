@@ -7,7 +7,7 @@ import Skills from "./Skills";
 
 const Home = () => {
     return (
-        <div className="bg-[#E5ECFB]">
+        <div className="">
             <div className=" ">
                 <Hero></Hero>
             </div>

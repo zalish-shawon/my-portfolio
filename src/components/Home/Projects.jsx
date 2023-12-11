@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Projects = () => {
     return (
-        <div className='max-w-[78%] mx-auto'>
+        <div className='max-w-[78%] mx-auto pb-12'>
             <div className="flex justify-center gap-3 items-center mt-12">
                 <AiOutlineFundProjectionScreen className="text-5xl"></AiOutlineFundProjectionScreen>
                 <h1 className="font-bold text-4xl">Projects <span className="text-[#018DB0]"> Made</span></h1>
@@ -95,7 +95,7 @@ const Projects = () => {
                                                 Users can check which products are available based on the product brand
                                                 If users want to view product details, they should log in first.
                                                 Users can also create an account or register on this site.
-                                                This web application uses the Firebase authentication system.</p>
+                                                </p>
                                         </div>
                                         <div className="flex gap-2 ml-2 mt-2 justify-center">
                                             <a href="https://brand-eshop-7ab17.web.app/ 
