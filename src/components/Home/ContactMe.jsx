@@ -21,7 +21,7 @@ const ContactMe = () => {
 
 
     return (
-        <div className="max-w-[78%] mx-auto">
+        <div className="max-w-[78%] mx-auto pt-2 pb-2">
             <div>
             <div className="flex justify-center gap-3 items-center mt-5">
                 <TfiHeadphoneAlt className="text-4xl"></TfiHeadphoneAlt>

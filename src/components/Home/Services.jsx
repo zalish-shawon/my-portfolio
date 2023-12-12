@@ -10,7 +10,7 @@ const Services = () => {
     return (
         <div className='max-w-[78%] mx-auto'>
     
-           <div className="flex justify-center gap-3 items-center mt-12">
+           <div className="flex justify-center gap-3 items-center mt-5">
                <GrServices className="text-4xl"></GrServices>
                 <h1 className="font-bold text-4xl">My <span className="text-[#018DB0]">Services</span></h1>
                 

@@ -2,7 +2,7 @@ import { GiGraduateCap } from "react-icons/gi";
 
 const Education = () => {
     return (
-        <div className="max-w-[78%] mx-auto">
+        <div className="max-w-[78%] mx-auto pt-2 pb-2">
             <div className="flex justify-center gap-3 items-center mt-12">
                 <GiGraduateCap className="text-5xl"></GiGraduateCap>
                 <h1 className="font-bold text-4xl">My <span className="text-[#018DB0]"> Education</span></h1>

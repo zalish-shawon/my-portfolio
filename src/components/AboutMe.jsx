@@ -11,8 +11,8 @@ const AboutMe = () => {
         link.click();
       };
     return (
-        <div className="max-w-[78%] mx-auto">
-            <div className="flex justify-center gap-3 items-center mt-8">
+        <div className="max-w-[78%] mx-auto pb-5">
+            <div className="flex justify-center gap-3 items-center pt-4">
                <RiContactsFill className="text-3xl"></RiContactsFill>
                 <h1 className="font-bold text-4xl">About <span className="text-[#018DB0]">Me</span></h1>
             </div>

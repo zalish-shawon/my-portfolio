@@ -7,27 +7,29 @@ import Services from "./Services";
 import Skills from "./Skills";
 
 const Home = () => {
+
     return (
         <div className="">
-            <div className=" ">
+            <div className=" bg-[#FFF7D4]">
+                
                 <Hero></Hero>
             </div>
-            <div>
+            <div className="bg-[#F3F8FF]">
                 <AboutMe></AboutMe>
             </div>
-            <div>
+            <div className="bg-[#EEE7DA] pt-1 pb-1">
                 <Services></Services>
             </div>
-            <div>
+            <div className="bg-[#9AD0C2]">
                 <Skills></Skills>
             </div>
-            <div>
+            <div className="bg-[#EEE2DE]">
                 <Education></Education>
             </div>
             <div>
                 <Projects></Projects>
             </div>
-            <div>
+            <div className="bg-[#F3EEEA]">
                 <ContactMe></ContactMe>
             </div>
         </div>
