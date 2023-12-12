@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Projects = () => {
     return (
-        <div className='max-w-[78%] mx-auto pb-12'>
+        <div className='max-w-[78%] mx-auto'>
             <div className="flex justify-center gap-3 items-center mt-12">
                 <AiOutlineFundProjectionScreen className="text-5xl"></AiOutlineFundProjectionScreen>
                 <h1 className="font-bold text-4xl">Projects <span className="text-[#018DB0]"> Made</span></h1>

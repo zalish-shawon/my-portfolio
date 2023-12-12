@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe";
+import ContactMe from "./ContactMe";
 import Education from "./Education";
 import Hero from "./Hero";
 import Projects from "./Projects";
@@ -25,6 +26,9 @@ const Home = () => {
             </div>
             <div>
                 <Projects></Projects>
+            </div>
+            <div>
+                <ContactMe></ContactMe>
             </div>
         </div>
     );
