@@ -9,27 +9,27 @@ import Skills from "./Skills";
 const Home = () => {
 
     return (
-        <div className="">
-            <div className=" bg-[#FFF7D4]">
+        <div className="bg-[#060918]">
+            <div className=" ">
                 
                 <Hero></Hero>
             </div>
-            <div className="bg-[#F3F8FF]">
+            <div className="">
                 <AboutMe></AboutMe>
             </div>
-            <div className="bg-[#EEE7DA] pt-1 pb-1">
+            <div className=" pt-1 pb-1">
                 <Services></Services>
             </div>
-            <div className="bg-[#9AD0C2]">
+            <div className="">
                 <Skills></Skills>
             </div>
-            <div className="bg-[#EEE2DE]">
+            <div className="">
                 <Education></Education>
             </div>
             <div>
                 <Projects></Projects>
             </div>
-            <div className="bg-[#F3EEEA]">
+            <div className="">
                 <ContactMe></ContactMe>
             </div>
         </div>

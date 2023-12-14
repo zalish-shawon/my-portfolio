@@ -18,8 +18,8 @@ const Skills = () => {
     return (
         <div className='max-w-[78%] mx-auto pt-2 pb-2'>
             <div className="flex justify-center gap-3 items-center mt-12">
-                <GiSkills className="text-4xl"></GiSkills>
-                <h1 className="font-bold text-4xl">Skills &  <span className="text-[#018DB0]"> Abilities</span></h1>
+                <GiSkills className="text-4xl text-[#909AB9]"></GiSkills>
+                <h1 className="font-bold text-4xl text-[#909AB9]">Skills &  <span className="text-[#018DB0]"> Abilities</span></h1>
 
             </div>
             <div className='mb-10 mt-8 grid grid-cols-1 lg:grid-cols-5 gap-4'>

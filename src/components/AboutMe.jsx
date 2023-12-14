@@ -13,8 +13,8 @@ const AboutMe = () => {
     return (
         <div className="max-w-[78%] mx-auto pb-5">
             <div className="flex justify-center gap-3 items-center pt-4">
-               <RiContactsFill className="text-3xl"></RiContactsFill>
-                <h1 className="font-bold text-4xl">About <span className="text-[#018DB0]">Me</span></h1>
+               <RiContactsFill className="text-3xl text-[#909AB9]"></RiContactsFill>
+                <h1 className="font-bold text-[#909AB9] text-4xl">About <span className="text-[#018DB0]">Me</span></h1>
             </div>
 
             <div className="flex flex-col-reverse lg:flex-row lg:gap-12">
@@ -23,10 +23,10 @@ const AboutMe = () => {
                     <img src={myphoto} alt="" />
                 </div>
             </div>
-            <div className="mt-14">
-                <h2 className="text-3xl font-semibold text-[#495057]">Md Zalish Mahmud</h2>
-                <h3 className="text-xl mt-1 font-medium text-[#FD2E65]">MERN Stack Developer</h3>
-                <p className="text-lg font-normal text-gray-500 mt-1">A dedicated web developer passionate about turning ideas into captivating digital experiences. Proficient in a variety of front-end and back-end technologies, I specialize in crafting responsive and user-centric websites. From designing visually appealing interfaces to implementing robust server-side logic, I bring creativity and technical expertise to every project. I thrive on challenges, constantly exploring new technologies to stay at the forefront of web development.</p>
+            <div className="mt-[75px]">
+                <h2 className="text-3xl font-semibold text-[#909AB9]">Md Zalish Mahmud</h2>
+                <h3 className="text-xl mt-1 font-medium text-[#2c7972]">MERN Stack Developer</h3>
+                <p className="text-lg font-normal text-gray-500 mt-1">A dedicated web developer passionate about turning ideas into captivating digital experiences. Proficient in a variety of front-end and back-end technologies, I specialize in crafting responsive and user-centric websites. From designing visually appealing interfaces to implementing robust server-side logic, I bring creativity and technical expertise to every project.</p>
                 <button onClick={handleDownload} className="btn bg-[#018DB0] text-white hover:bg-[#276777] mt-1">Download Resume <RiDownload2Fill className="text-lg"></RiDownload2Fill></button>
             </div>
             </div>

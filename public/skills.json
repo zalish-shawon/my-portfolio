@@ -2,62 +2,46 @@
     {
         "id": 1,
         "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        "icon": "https://static-00.iconduck.com/assets.00/react-javascript-js-framework-facebook-icon-2048x1822-f7kq7hho.png"
     },
     {
         "id": 2,
         "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+        "icon": "https://www.freepnglogos.com/uploads/javascript-png/javascript-nodejs-logo-27.png"
     },
     {
         "id": 3,
         "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+        "icon": "https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png"
     },
-    {
-        "id": 4,
-        "name": "Redux",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
-    },
+    
     {
         "id": 5,
         "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+        "icon": "https://cdn.freebiesupply.com/logos/thumbs/2x/firebase-1-logo.png"
     },
+    
     {
         "id": 6,
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
-    },
-    {
-        "id": 7,
         "name": "MaterialUI",
         "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
     },
+    
+    {
+        "id": 7,
+        "name": "TailwindCSS",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+    },
     {
         "id": 8,
-        "name": "ChakraUI",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
-    },
-    {
-        "id": 9,
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
-    },
-    {
-        "id": 10,
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
     },
-    {
-        "id": 11,
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
-    },
+    
     {
         "id": 12,
         "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        "icon": "https://cdn-icons-png.flaticon.com/512/2535/2535518.png"
     },
     {
         "id": 13,
@@ -74,16 +58,8 @@
         "name": "Java",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
-    {
-        "id": 16,
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
-    },
-    {
-        "id": 17,
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
+    
+    
     {
         "id": 18,
         "name": "Python",
@@ -99,21 +75,9 @@
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
-    {
-        "id": 21,
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "id": 22,
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "id": 23,
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
+    
+    
+    
     {
         "id": 24,
         "name": "Heroku",
@@ -124,16 +88,7 @@
         "name": "Netlify",
         "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
     },
-    {
-        "id": 26,
-        "name": "DigitalOcean",
-        "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
-    },
-    {
-        "id": 27,
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
+    
     {
         "id": 28,
         "name": "Git VCS",
@@ -143,10 +98,6 @@
         "id": 29,
         "name": "GitHub",
         "icon": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-    },
-    {
-        "id": 30,
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
     }
+    
 ]

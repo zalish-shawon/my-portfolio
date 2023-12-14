@@ -28,7 +28,7 @@ const Hero = () => {
                             }}
                         /></span></h1>
 
-                    <p className="text-lg mt-4 w-[90%] text-gray-500 font-medium">I am a junior Full stack developer, proficient in MongoDB, Express.js, React.js, and Node.js.</p>
+                    <p className="text-lg mt-4 w-[90%] text-gray-400 font-medium">I am a junior Full stack developer, proficient in MongoDB, Express.js, React.js, and Node.js.</p>
 
                     <div className="mt-3">
                         <div class="flex flex-wrap justify-start gap-2">
