@@ -24,7 +24,7 @@
     {
         "id": 6,
         "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+        "icon": "https://mui.com/static/logo.png"
     },
     
     {
@@ -35,7 +35,7 @@
     {
         "id": 8,
         "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
     },
     
     {
@@ -46,24 +46,24 @@
     {
         "id": 13,
         "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+        "icon": "https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png"
     },
     {
         "id": 14,
         "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png"
     },
     {
         "id": 15,
         "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+        "icon": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"
     },
     
     
     {
         "id": 18,
         "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2048px-Python.svg.png"
     },
     {
         "id": 19,
