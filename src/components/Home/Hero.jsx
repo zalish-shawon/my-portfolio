@@ -16,11 +16,11 @@ const Hero = () => {
         link.click();
     };
     return (
-        <div className="flex flex-col lg:flex-row justify-around items-center  max-w-[90%] mx-auto pt-3 pb-5">
+        <div className="flex flex-col lg:flex-row justify-between items-center  max-w-[85%] mx-auto pt-3 pb-5">
             <div className="lg:w-1/2">
                 <div className=" ml-12 mt-8">
                     <h1 className="font-bold text-5xl text-[#018DB0]">Hi👋 I’m <br /> Md Zalish Mahmud
-                        <span className="text-[#D1884F] font-semibold"> <Typewriter
+                        <span className="text-[#D1884F] font-semibold text-4xl"> <Typewriter
                             options={{
                                 strings: ['MERN Stack Developer', 'Front-end Developer', 'React.js Developer'],
                                 autoStart: true,
@@ -67,9 +67,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-
-                    <button onClick={handleDownload} className="btn bg-[#018DB0] text-white hover:bg-[#276777] mt-4">Download Resume <RiDownload2Fill className="text-lg"></RiDownload2Fill></button>
-
+                    <button onClick={handleDownload} className="btn bg-[#018DB0] text-white hover:bg-[#276777] mr-10 mt-4">Download Resume <RiDownload2Fill className="text-lg"></RiDownload2Fill></button>
                 </div>
 
             </div>
