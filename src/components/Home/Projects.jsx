@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/jsx-no-target-blank */
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-// Import Swiper React components
+import { motion } from 'framer-motion';
+
 
 
 const Projects = () => {
@@ -12,76 +13,64 @@ const Projects = () => {
                 <h1 className="font-bold text-4xl text-[#909AB9]">Projects <span className="text-[#018DB0]"> Made</span></h1>
 
             </div>
-            
-            <div className="flex justify-center gap-3 items-center mt-8">
-                <div class="flex flex-col justify-center items-center">
-                    <div class="bg-[#100B32] rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
-                        <img src="https://raw.githubusercontent.com/zalish-shawon/online-careerLoom-client/main/public/ss.png" alt="Mountain" class="w-full" />
-                        <div class="p-6">
-                            <h2 class="text-2xl font-bold text-[#909AB9] mb-2">Beautiful Mountain View</h2>
-                            <p class="text-[#909AB9] leading-tight mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu sapien porttitor, blandit velit ac,
-                                vehicula elit. Nunc et ex at turpis rutrum viverra.
-                            </p>
-                            <div class="flex justify-between items-center">
-                                <div class="flex items-center">
-                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar" class="w-8 h-8 rounded-full mr-2 object-cover" />
-                                    <span class="text-[#909AB9] font-semibold">John Doe</span>
-                                </div>
-                                <span class="text-[#909AB9]">2 hours ago</span>
+            <div className="mt-11">
+            <motion.div whileHover={{ scale: 1.1 }}>
+                    <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 relative">
+                        <div class="shadow rounded-xl">
+                            <div class="grid overflow-hidden text-[#df805d] shadow-xl md:grid-cols-2 bg-blue-900 rounded-xl">
+                                <aside class="p-8 space-y-4 md:p-16">
+                                    <h2 class="text-2xl font-bold tracking-tight md:text-4xl font-headline">
+                                        CareerLoom - Online Market Place
+                                    </h2>
+                                    <div>
+                                        <a target="_blank" href="https://careerloom-89809.web.app/" class="bg-blue-600 text-white px-4 py-2 mt-3 rounded-xl transition-transform transform hover:scale-105">
+                                            Live Preview
+                                        </a>
+                                        <a target="_blank" href="https://github.com/zalish-shawon/online-careerLoom-client" class="bg-green-600 text-white px-4 py-2 mt-3 rounded-xl transition-transform transform hover:scale-105 ml-3">
+                                            Project Code
+                                        </a>
+                                    </div>
+
+                                </aside>
+                                <aside class="relative hidden md:block">
+                                    <img class="absolute inset-0 object-cover object-left-top w-full h-full mt-16 -mr-16 rounded-tl-lg" src="https://raw.githubusercontent.com/zalish-shawon/online-careerLoom-client/main/public/ss.png" alt="Discover our beautiful panel" />
+                                </aside>
                             </div>
                         </div>
                     </div>
-                </div>
+                    </motion.div>
+                <motion.div whileHover={{ scale: 1.1 }} class="py-8 md:py-8">
+                    <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 relative">
+                        <div class="shadow rounded-xl">
+                            <div class="grid overflow-hidden text-[#29ADB2] shadow-xl md:grid-cols-2 bg-blue-900 rounded-xl">
+                                <aside class="p-8 space-y-4 md:p-16">
+                                    <h2 class="text-2xl font-bold tracking-tight md:text-4xl font-headline">
+                                    Polling and Survey App
+                                    </h2>
+                                    <div>
+                                        <a target="_blank" href="https://online-polliing-survey.web.app/" class="bg-blue-600 text-white px-4 py-2 mt-3 rounded-xl transition-transform transform hover:scale-105">
+                                            Live Preview
+                                        </a>
+                                        <a target="_blank" href="https://github.com/zalish-shawon/polling-survey-client" class="bg-green-600 text-white px-4 py-2 mt-3 rounded-xl transition-transform transform hover:scale-105 ml-3">
+                                            Project Code
+                                        </a>
+                                    </div>
 
-                <div class="flex flex-col justify-center items-center">
-                    <div class="bg-[#100B32] rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
-                        <img src="https://raw.githubusercontent.com/zalish-shawon/online-careerLoom-client/main/public/ss.png" alt="Mountain" class="w-full" />
-                        <div class="p-6">
-                            <h2 class="text-2xl font-bold text-[#909AB9] mb-2">Beautiful Mountain View</h2>
-                            <p class="text-[#909AB9] leading-tight mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu sapien porttitor, blandit velit ac,
-                                vehicula elit. Nunc et ex at turpis rutrum viverra.
-                            </p>
-                            <div class="flex justify-between items-center">
-                                <div class="flex items-center">
-                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar" class="w-8 h-8 rounded-full mr-2 object-cover" />
-                                    <span class="text-[#909AB9] font-semibold">John Doe</span>
-                                </div>
-                                <span class="text-[#909AB9]">2 hours ago</span>
+                                </aside>
+                                <aside class="relative hidden md:block">
+                                    <img class="absolute inset-0 object-cover object-left-top w-full h-full mt-16 -mr-16 rounded-tl-lg" src="https://raw.githubusercontent.com/zalish-shawon/polling-survey-client/main/public/ss.png" alt="Discover our beautiful panel" />
+                                </aside>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-
-                <div class="flex flex-col justify-center items-center mr-3">
-                    <div class="bg-[#100B32] rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
-                        <img src="https://raw.githubusercontent.com/zalish-shawon/online-careerLoom-client/main/public/ss.png" alt="Mountain" class="w-full" />
-                        <div class="p-6">
-                            <h2 class="text-2xl font-bold text-[#909AB9] mb-2">Beautiful Mountain View</h2>
-                            <p class="text-[#909AB9] leading-tight mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu sapien porttitor, blandit velit ac,
-                                vehicula elit. Nunc et ex at turpis rutrum viverra.
-                            </p>
-                            <div class="flex justify-between items-center">
-                                <div class="flex items-center">
-                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar" class="w-8 h-8 rounded-full mr-2 object-cover" />
-                                    <span class="text-[#909AB9] font-semibold">John Doe</span>
-                                </div>
-                                <span class="text-[#909AB9]">2 hours ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                    </motion.div>
             </div>
 
 
 
-
         </div>
+
+
     );
 };
 
