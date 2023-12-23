@@ -8,11 +8,14 @@ import { motion } from 'framer-motion';
 const Projects = () => {
     return (
         <div className='max-w-[85%] mx-auto'>
+            
             <div className="flex justify-center gap-3 items-center mt-12">
+                
                 <AiOutlineFundProjectionScreen className="text-5xl text-[#909AB9]"></AiOutlineFundProjectionScreen>
                 <h1 className="font-bold text-4xl text-[#909AB9]">Projects <span className="text-[#018DB0]"> Made</span></h1>
 
             </div>
+           
             <div className="mt-11">
             <motion.div whileHover={{ scale: 1.1 }}>
                     <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 relative">

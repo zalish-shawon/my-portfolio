@@ -72,7 +72,8 @@ const Hero = () => {
 
             </div>
             <div className="lg:w-[25%] mt-4">
-                <img className="h-[250px] w-[250px] rounded-full" src={mypic} alt="" />
+               
+                <img className=" h-[250px] w-[250px] rounded-full" src={mypic} alt="" />
             </div>
         </div>
     );
