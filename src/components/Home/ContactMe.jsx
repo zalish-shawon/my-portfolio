@@ -19,17 +19,18 @@ const ContactMe = () => {
     };
 
     return (
-        <div className="max-w-[78%] mx-auto pt-2 pb-2">
+        <div className="max-w-[85%] mx-auto pt-2 pb-2" >
             <div>
                 <div className="flex justify-center gap-3 items-center mt-5">
                     <TfiHeadphoneAlt className="text-4xl text-[#909AB9]"></TfiHeadphoneAlt>
-                    <h1 className="font-bold text-4xl text-[#909AB9]">Get In <span className="text-[#018DB0]">Touch</span></h1>
-
+                    <h1 className="font-bold text-4xl text-[#909AB9]" >Get In <span className="text-[#018DB0]">Touch</span></h1>
                 </div>
-                <section className="mt-10 mb-16">
+                <section className="mt-10 mb-16" id="contact">
                     <div class="container px-6 mx-auto">
                         <div class="flex flex-col-reverse lg:flex-row items-center justify-center lg:-mx-6">
-                            <div class="lg:w-1/2 lg:mx-6 mt-8">
+                            <div class="lg:w-1/2 lg:mx-6 mt-8" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                 <h1 class="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
                                     Contact me for <br /> more info
                                 </h1>
@@ -95,7 +96,9 @@ const ContactMe = () => {
                                 </div>
                             </div>
 
-                            <div class="mt-8 lg:w-1/2 lg:mx-6">
+                            <div class="mt-8 lg:w-1/2 lg:mx-6" data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                 <div
                                     class="w-full px-8 pb-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
                                     <form class="mt-6">

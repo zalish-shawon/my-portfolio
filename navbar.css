@@ -1,0 +1,38 @@
+/* styles.css */
+.scrollable-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  .scrollable-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .scrollable-nav li {
+    margin: 0;
+  }
+  
+  .scrollable-nav a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrollable-nav a:hover {
+    background-color: #555;
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }

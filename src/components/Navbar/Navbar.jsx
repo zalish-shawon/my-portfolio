@@ -1,43 +1,69 @@
 /* eslint-disable react/no-unknown-property */
-import React from 'react';
-
+import { Link } from 'react-scroll';
+import "../../../navbar.css"
 const Navbar = () => {
+
+
     return (
         <div className='bg-[#111827]'>
-
-            <nav class=" border-gray-200 max-w-[85%] mx-auto">
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                    </a>
-                    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-                        </svg>
-                    </button>
-                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                            <li>
-                                <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                            </li>
+            <div className='navbar max-w-[85%] mx-auto'>
+                <div className="navbar-start">
+                    <div className="dropdown text-[#909AB9] lg:hidden sm:block">
+                        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                        </div>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <Link to="hero" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn btn-ghost hover:bg-[#018DB0] hover:text-white text-lg text-[#909AB9]">Home</a>
+                    </Link>
+                    <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">About</a>
+                    </Link>
+                    <Link to="services" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Services</a>
+                    </Link>
+                    <Link to="skills" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Skills</a>
+                    </Link>
+                    <Link to="education" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Education</a>
+                    </Link>
+                    <Link to="project" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Projects</a>
+                    </Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Contact</a>
+                    </Link>
                         </ul>
                     </div>
+                    <div className='flex justify-center items-center'>
+                        <img className='w-[50px]' src="https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/logo-1-70x70.png" alt="" />
+                    </div>
                 </div>
-            </nav>
+                <div className="navbar-center hidden lg:block">
+                    <Link to="hero" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn btn-ghost hover:bg-[#018DB0] hover:text-white text-lg text-[#909AB9]">Home</a>
+                    </Link>
+                    <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">About</a>
+                    </Link>
+                    <Link to="services" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Services</a>
+                    </Link>
+                    <Link to="skills" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Skills</a>
+                    </Link>
+                    <Link to="education" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Education</a>
+                    </Link>
+                    <Link to="project" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Projects</a>
+                    </Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                    <a className="btn hover:bg-[#018DB0] hover:text-white btn-ghost text-lg text-[#909AB9]">Contact</a>
+                    </Link>
+                </div>
+            </div>
 
         </div>
     );

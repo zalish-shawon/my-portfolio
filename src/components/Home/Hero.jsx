@@ -16,9 +16,9 @@ const Hero = () => {
         link.click();
     };
     return (
-        <div className="flex flex-col lg:flex-row justify-between items-center  max-w-[85%] mx-auto pt-3 pb-5">
+        <div className="flex flex-col lg:flex-row justify-between items-center  max-w-[85%] mx-auto pt-3 pb-5" id="hero">
             <div className="lg:w-1/2">
-                <div className=" ml-12 mt-8">
+                <div data-aos="zoom-in" className=" mt-8">
                     <h1 className="font-bold text-5xl text-[#018DB0]">Hi👋 I’m <br /> Md Zalish Mahmud
                         <span className="text-[#D1884F] font-semibold text-4xl"> <Typewriter
                             options={{
@@ -71,7 +71,7 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div className="lg:w-[25%] mt-4">
+            <div data-aos="zoom-in-up" className="lg:w-[25%] mt-4">
                
                 <img className=" h-[250px] w-[250px] rounded-full" src={mypic} alt="" />
             </div>
