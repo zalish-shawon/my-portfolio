@@ -9,7 +9,7 @@ const Education = () => {
 
             </div>
             <p className="mt-2 text-center text-[#909AB9] font-semibold">Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
-            <div data-aos="zoom-out-down" className="mt-8 mb-6 hover:shadow-lg">
+            <div data-aos="zoom-in-left" className="mt-8 mb-6 hover:shadow-lg">
                 <div className="bg-[#2f4550]">
                     <div className="flex flex-col lg:flex-row items-center">
                         <img src="https://i.ytimg.com/vi/j1z99pBc-do/maxresdefault.jpg" className="h-[200px] w-[300px] p-3" />

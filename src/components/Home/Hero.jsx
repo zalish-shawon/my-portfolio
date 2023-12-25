@@ -8,11 +8,11 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
 
     const handleDownload = () => {
-        const url = 'https://my-portfolio-b5a05.web.app/resume.pdf';
+        const url = 'https://zalish-mahmud.web.app/Resume_of_Md_Zalish_Mahmud.pdf';
         // const url = 'http://localhost:5173/resume.pdf';
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'resume.pdf';
+        link.download = 'Resume_of_Md_Zalish_Mahmud.pdf';
         link.click();
     };
     return (
@@ -71,9 +71,11 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div data-aos="zoom-in-up" className="lg:w-[25%] mt-4">
+            <div data-aos="zoom-in-up" className=" mt-4">
                
-                <img className=" h-[250px] w-[250px] rounded-full" src={mypic} alt="" />
+                <div>
+                <iframe className="w-[500px] h-[500px]" src="https://lottie.host/embed/2cf0bfb0-c0fb-47b0-8e92-a3b5fe1c9c68/jmKSGGj6SE.json"></iframe>
+                </div>
             </div>
         </div>
     );

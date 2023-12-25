@@ -23,7 +23,7 @@ const AboutMe = () => {
                     <p className="text-xl font-normal text-gray-500 mt-1">A dedicated web developer passionate about turning ideas into captivating digital experiences. During my practical experiences, I've successfully implemented responsive and visually appealing web applications.
                     My proficiency in React, coupled with a strong foundation in Node.js, Express.js, and JavaScript, has allowed me to create efficient and dynamic solutions. Additionally, my familiarity with Tailwind CSS enhances my ability to produce clean and maintainable code while adhering to modern design principles.</p>
                     <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-                        <button className="btn bg-[#018DB0] text-white hover:bg-[#276777] mt-5">Contact Me<RiContactsFill className="text-lg"></RiContactsFill></button>
+                        <button className="btn bg-[#FB3667] text-white hover:bg-[#a0304c] mt-5">Contact Me<RiContactsFill className="text-lg"></RiContactsFill></button>
                     </Link>
                 </div>
             </div>
